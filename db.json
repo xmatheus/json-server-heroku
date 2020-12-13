@@ -41,20 +41,29 @@
     {
       "id": 0,
       "nome": "Cannã",
-      "latitude": "-15.889865848960364",
-      "longitude": "-52.26061027862848",
+      "cep": "78600-000",
       "mascateId": 0,
       "email": "cannan@cannan.com",
-      "cnpj": "51.654.789/0001-35"
+      "cnpj": "51.654.789/0001-35",
+      "telefone": "6599923847"
     },
     {
-      "id": 0,
+      "id": 1,
       "nome": "Cannã",
-      "latitude": "-15.889865848960364",
-      "longitude": "-52.26061027862848",
+      "cep": "78600-000",
       "mascateId": 1,
       "email": "cannan@cannan.com",
-      "cnpj": "51.654.789/0001-35"
+      "cnpj": "51.654.789/0001-35",
+      "telefone": "6599923847"
+    },
+    {
+      "id": 2,
+      "nome": "Fornecedor Savião",
+      "cep": "786000-000",
+      "mascateId": 1,
+      "email": "saviao@gmail.com",
+      "cnpj": "71.324.729/0001-35",
+      "telefone": "65329653847"
     }
   ]
 }

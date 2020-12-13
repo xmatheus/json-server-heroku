@@ -4,7 +4,7 @@
   "description": "Simple json database to deploy to the host of your choice",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon -e json server.js"
   },
   "keywords": [
     "json-server,heroku, node, REST API"
@@ -12,6 +12,7 @@
   "author": "Jesper Orb",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.16.2"
+    "json-server": "^0.16.2",
+    "nodemon": "^2.0.6"
   }
 }
