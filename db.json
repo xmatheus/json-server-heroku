@@ -1,16 +1,60 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+  "mascates": [
     {
       "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "nome": "João",
+      "latitude": "-15.892470",
+      "longitude": "-52.260444",
+      "categoria": "Autonomo",
+      "telefone": "65992340999",
+      "email": "joao@gmail.com"
+    },
+    {
+      "id": 1,
+      "nome": "Maria",
+      "latitude": "-15.891879883650688",
+      "longitude": "-52.261735487455205 ",
+      "categoria": "Autonomo",
+      "telefone": "65452040999",
+      "email": "maria@gmail.com"
+    },
+    {
+      "id": 2,
+      "nome": "Lucio",
+      "latitude": "-15.89037333548959",
+      "longitude": "-52.26358897109889",
+      "categoria": "Autonomo",
+      "telefone": "65652040999",
+      "email": "lucio@gmail.com"
+    },
+    {
+      "nome": "jv",
+      "latitude": "-13.835426",
+      "longitude": "-56.0909457",
+      "categoria": "autonomo",
+      "telefone": "2232323",
+      "email": "jv@gmail.com",
+      "id": 3
+    }
+  ],
+  "fornecedor": [
+    {
+      "id": 0,
+      "nome": "Cannã",
+      "latitude": "-15.889865848960364",
+      "longitude": "-52.26061027862848",
+      "mascateId": 0,
+      "email": "cannan@cannan.com",
+      "cnpj": "51.654.789/0001-35"
+    },
+    {
+      "id": 0,
+      "nome": "Cannã",
+      "latitude": "-15.889865848960364",
+      "longitude": "-52.26061027862848",
+      "mascateId": 1,
+      "email": "cannan@cannan.com",
+      "cnpj": "51.654.789/0001-35"
     }
   ]
 }
